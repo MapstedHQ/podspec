@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name              = 'mapsted-sdk-components-core'
   s.version           = '26.7.1'
   s.summary           = 'Mapsted Mobile SDK Components Core'
-  s.homepage          = 'https://developer.mapsted.com/getting-started/'
+  s.homepage          = 'https://developer.mapsted.com/mobile-sdk/'
   s.author            = { 'Mapsted' => 'https://mapsted.com' }
   s.license           = 'Mapsted Corp.'
   s.platform          = :ios

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name              = 'mapsted-sdk-map'
   s.version           = '26.7.1'
   s.summary           = 'Mapsted Mobile SDK for maps'
-  s.homepage          = 'https://mapsted.com/developer-tools-resources-indoor-navigation-api'
+  s.homepage          = 'https://developer.mapsted.com/mobile-sdk/'
   s.author            = { 'Mapsted' => 'https://mapsted.com' }
   s.license           = 'Mapsted Corp.'
   s.platform          = :ios
