@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios
-    s.source            = { :http => "https://cocoapod.s3.amazonaws.com/mapsted-map-sdk.zip" }
+    s.source            = { :http => "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/cocoapods-artifacts/mapsted-map-sdk.zip" }
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = "mapsted-map-sdk/MapSDK.framework"
     s.libraries = "z", "c++"

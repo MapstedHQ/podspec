@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios
-    s.source            = { :http => "https://cocoapod.s3.amazonaws.com/core-map-sdk-xc-4.4.6.zip" }
+    s.source            = { :http => "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/cocoapods-artifacts/core-map-sdk-xc-4.4.6.zip" }
     s.ios.deployment_target = '12.3'
     s.ios.vendored_frameworks = "MapSDK.xcframework"
     s.libraries = "z", "c++"
