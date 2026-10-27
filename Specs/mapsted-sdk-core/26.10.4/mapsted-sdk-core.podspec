@@ -1,0 +1,14 @@
+Pod::Spec.new do |s|
+  s.name              = 'mapsted-sdk-core'
+  s.version           = '26.10.4'
+  s.summary           = 'Mapsted Mobile SDK for indoor positioning'
+  s.homepage          = 'https://developer.mapsted.com/mobile-sdk/'
+  s.author            = { 'Mapsted' => 'https://mapsted.com' }
+  s.license           = { :type => 'Commercial', :text => 'Copyright (c) 2026 Mapsted Corp. All rights reserved. Use of this SDK is governed by your licence agreement with Mapsted Corp.' }
+  s.platform          = :ios
+  s.source            = { :http => "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.10.4/MapstedCore.xcframework.zip" }
+  s.ios.deployment_target = '16.0'
+  s.ios.vendored_frameworks = 'MapstedCore.xcframework'
+  s.libraries         = 'z', 'c++'
+  s.dependency 'SSZipArchive'
+end
